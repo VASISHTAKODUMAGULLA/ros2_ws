@@ -95,11 +95,7 @@ timeout, and the node logs `RCLCPP_ERROR` and publishes a `COMM_ERROR` state.
 
 ## AI usage
 
-> NOTE TO CANDIDATE: edit the items below so they reflect *your* actual prompts
-> and decisions. The structure satisfies the task's requirement (3–8 prompts,
-> manual changes, one rejected output). Keep it honest.
-
-AI tools used: <e.g. GitHub Copilot / Claude>.
+AI tools used: Claudecode.
 
 ### Key prompts
 
