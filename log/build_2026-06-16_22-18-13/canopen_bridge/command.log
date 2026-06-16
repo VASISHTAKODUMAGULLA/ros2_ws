@@ -1,0 +1,6 @@
+Invoking command in '/home/vakodu/ros2_ws/build/canopen_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vakodu/ros2_ws/src/canopen_bridge -DCMAKE_INSTALL_PREFIX=/home/vakodu/ros2_ws/install/canopen_bridge
+Invoked command in '/home/vakodu/ros2_ws/build/canopen_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vakodu/ros2_ws/src/canopen_bridge -DCMAKE_INSTALL_PREFIX=/home/vakodu/ros2_ws/install/canopen_bridge
+Invoking command in '/home/vakodu/ros2_ws/build/canopen_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vakodu/ros2_ws/build/canopen_bridge -- -j22 -l22
+Invoked command in '/home/vakodu/ros2_ws/build/canopen_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vakodu/ros2_ws/build/canopen_bridge -- -j22 -l22
+Invoking command in '/home/vakodu/ros2_ws/build/canopen_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vakodu/ros2_ws/build/canopen_bridge
+Invoked command in '/home/vakodu/ros2_ws/build/canopen_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vakodu/ros2_ws/build/canopen_bridge

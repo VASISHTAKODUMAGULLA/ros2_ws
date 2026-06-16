@@ -1,0 +1,15 @@
+canopen_bridge_node:
+  ros__parameters:
+    # Scaling between ROS m/s and CANopen integer units (1.5 m/s -> 1500).
+    velocity_scale: 1000.0
+
+    # Object dictionary indices. YAML has no hex literal, so use decimal:
+    rpdo_index: 8192      # 0x2000  (command path)
+    tpdo_index: 12288     # 0x3000  (feedback path)
+
+    # How often the feedback path polls the device, in Hz.
+    feedback_rate_hz: 10
+
+    # When true, the mock randomly injects bus timeouts so the node's
+    # error-handling path can be observed at runtime.
+    fault_injection: false

@@ -1,0 +1,17 @@
+/home/vakodu/ros2_ws/install/canopen_bridge/lib/canopen_bridge/canopen_bridge_node
+/home/vakodu/ros2_ws/install/canopen_bridge/share/canopen_bridge/config/bridge_params.yaml
+/home/vakodu/ros2_ws/install/canopen_bridge/share/ament_index/resource_index/package_run_dependencies/canopen_bridge
+/home/vakodu/ros2_ws/install/canopen_bridge/share/ament_index/resource_index/parent_prefix_path/canopen_bridge
+/home/vakodu/ros2_ws/install/canopen_bridge/share/canopen_bridge/environment/ament_prefix_path.sh
+/home/vakodu/ros2_ws/install/canopen_bridge/share/canopen_bridge/environment/ament_prefix_path.dsv
+/home/vakodu/ros2_ws/install/canopen_bridge/share/canopen_bridge/environment/path.sh
+/home/vakodu/ros2_ws/install/canopen_bridge/share/canopen_bridge/environment/path.dsv
+/home/vakodu/ros2_ws/install/canopen_bridge/share/canopen_bridge/local_setup.bash
+/home/vakodu/ros2_ws/install/canopen_bridge/share/canopen_bridge/local_setup.sh
+/home/vakodu/ros2_ws/install/canopen_bridge/share/canopen_bridge/local_setup.zsh
+/home/vakodu/ros2_ws/install/canopen_bridge/share/canopen_bridge/local_setup.dsv
+/home/vakodu/ros2_ws/install/canopen_bridge/share/canopen_bridge/package.dsv
+/home/vakodu/ros2_ws/install/canopen_bridge/share/ament_index/resource_index/packages/canopen_bridge
+/home/vakodu/ros2_ws/install/canopen_bridge/share/canopen_bridge/cmake/canopen_bridgeConfig.cmake
+/home/vakodu/ros2_ws/install/canopen_bridge/share/canopen_bridge/cmake/canopen_bridgeConfig-version.cmake
+/home/vakodu/ros2_ws/install/canopen_bridge/share/canopen_bridge/package.xml
