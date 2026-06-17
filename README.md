@@ -153,9 +153,15 @@ Open two more sourced terminals and try it live:
 
 ```bash
 # terminal 2 — send a velocity command
+source /opt/ros/humble/setup.bash
+source install/setup.bash
 ros2 topic pub /cmd_velocity geometry_msgs/msg/Twist "{linear: {x: 1.5}}"
+```
 
+```bash
 # terminal 3 — watch the feedback
+source /opt/ros/humble/setup.bash
+source install/setup.bash
 ros2 topic echo /device_state
 ```
 
@@ -165,6 +171,8 @@ and `/device_state` come back with `"velocity": 1.45` (the simulated slip).
 To see the error path in action:
 
 ```bash
+source /opt/ros/humble/setup.bash
+source install/setup.bash
 ros2 run canopen_bridge canopen_bridge_node --ros-args -p fault_injection:=true
 ```
 
@@ -237,7 +245,7 @@ about.
    broadcast-style (versus SDOs being confirmed point-to-point) shaped all the
    design decisions that followed.
 
-2. **"Scaffold a ROS 2 Humble C++ ament_cmake package with a subscriber on
+2. **"Create a ROS 2 Humble C++ ament_cmake package with a subscriber on
    /cmd_velocity (geometry_msgs/Twist) and a publisher on /device_state
    (std_msgs/String)."**
    Got the package skeleton, CMakeLists.txt, package.xml, and the bare node
@@ -283,6 +291,8 @@ about.
 - **Feedback on error:** the AI's error handler only logged. I made the feedback
   path also publish a valid JSON error state on failure, so a downstream node
   always gets a parseable message regardless of CAN health.
+
+- **Manual code review:** To ensure the AI generated content is of industrial standards and also error free I have revied the whole code and then tested all the cases and also modified where ever it is necessary.  
 
 ### One AI output I rejected
 
